@@ -2,6 +2,7 @@
 
 # Script de aprovisionamiento del Servidor Web 2
 # Capa 2 - Backend (Nginx + montaje NFS)
+# Manuel Soltero Díaz
 
 echo "=== Actualizando sistema ==="
 apt-get update
