@@ -52,7 +52,7 @@ Para esta practica se han usado las diferentes redes:
 vagrant up serverdatos1ManuelSoltero  serverdatos2ManuelSoltero proxyBBDDManuelSoltero serverNFSManuelSoltero  serverweb1ManuelSoltero serverweb2ManuelSoltero balanceadorManuelSoltero
 ```
  ### Vagrantfile
-```
+``` ruby
 # -- mode: ruby --
 # vi: set ft=ruby :
 
