@@ -2,6 +2,7 @@
 
 # Script de aprovisionamiento del Servidor de Base de Datos 1
 # Capa 4 - Datos (MariaDB Galera Cluster - Nodo 1)
+# Manuel Soltero Díaz
 
 echo "=== Actualizando sistema ==="
 apt-get update
