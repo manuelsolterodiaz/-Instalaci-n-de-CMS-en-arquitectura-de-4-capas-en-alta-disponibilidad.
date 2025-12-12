@@ -15,7 +15,7 @@ Contiene los ficheros VagrantFile y de aprovisionamiento necesarios para esta ta
 
 En esta práctica se va a realizar el despliegue de una aplicación web que está alojada en un repositorio público de GitHub en alta disponibilidad.
 
-La infraestructura montada en vagrant se monta un balanceador con Nginx, dos servidores de web , un servidor NFS con la aplicación alojada en una carpeta a la que acceder los servidores para mostrarla en el navegador, después en la misma máquina hay instalado el motor de PHP-FPM, seguidamente hay un servidor que actúa de balanceador en los servidores de base de datos, se ha utilizado HAProxy, y por último dos servidores de base de datos donde se aloja la base de datos.
+La infraestructura montada en vagrant se monta un balanceador con Nginx, dos servidores de web , un servidor NFS con la aplicación alojada en una carpeta a la que acceder los servidores web para mostrarla en el navegador, después en la misma máquina hay instalado el motor de PHP-FPM, seguidamente hay un servidor que actúa de balanceador en los servidores de base de datos, se ha utilizado HAProxy, y por último dos servidores de base de datos donde se aloja la base de datos.
 
 ### Direccionamiento
 
@@ -48,7 +48,7 @@ Para esta práctica se han usado las diferentes redes:
 # Programas / herramientas utilizados <a name="id2"></a>
 Programas/herramientas utilizados:
 - Vagrant/Virtualbox: para desplegar toda la infraestructura.
-- Nginx para el balanceador, servir la aplicación web.
+- Nginx: para el balanceador web, servir la aplicación web.
 - Preprocesador PHP-FPM: sirven para gestionar de manera eficiente los procesos de PHP y optimizar significativamente el rendimiento de las aplicaciones web.
 - NFS: sirve para compartir archivos y directorios a través de una red, permitiendo que múltiples ordenadores (clientes) accedan a ellos como si estuvieran en su propio disco local.
 - HAProxy: se usa con bases de datos para distribuir las conexiones y consultas entre múltiples servidores de bases de datos.
